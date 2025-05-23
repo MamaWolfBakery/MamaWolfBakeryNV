@@ -1,8 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+import React from "react";
+import ReactDOM from "react-dom/client";
+import MamaWolfBakery from "./MamaWolfBakery";
+import "./index.css";
 
-body {
-  margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<MamaWolfBakery />);
