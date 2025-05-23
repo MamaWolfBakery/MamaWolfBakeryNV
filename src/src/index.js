@@ -7,4 +7,5 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #0f172a;
   color: white;
+  import MamaWolfBakery from "./MamaWolfBakery";
 }
