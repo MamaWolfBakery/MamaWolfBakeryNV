@@ -3,3 +3,7 @@
   "outputDirectory": "build",
   "framework": "create-react-app"
 }
+{
+  "buildCommand": "npm install && npm run build",
+  "outputDirectory": "build"
+}
